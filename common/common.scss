@@ -80,6 +80,7 @@
       padding-top: 3px;
     }
 
+    
     .badge-notification.new-topic {
       vertical-align: top;
       display: inline-block;
@@ -151,10 +152,11 @@
   }
 
   .topic-tags {
-    grid-area: tags;
+    /* grid-area: tags; */
 
     .discourse-tags {
-        display: inline-block;
+//         display: inline-block;
+      display: none;
     }
   }
 
