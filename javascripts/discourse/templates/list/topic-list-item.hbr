@@ -34,7 +34,7 @@
           {{category-link topic.category}}
         </div>
       {{/if}}
-      {{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
+      <!-- {{discourse-tags topic mode="list" tagsForUser=tagsForUser}} -->
     {{/if}}
 
     {{#if expandPinned}}
